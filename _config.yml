@@ -2,6 +2,3 @@ name: Helm
 highlighter: rouge
 relative_permalinks: false
 markdown: kramdown
-
-url: "https://augmentedfifth.github.io"
-baseurl: "/helm"
