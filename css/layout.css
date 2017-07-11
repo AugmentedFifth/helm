@@ -75,7 +75,7 @@ ul.nav>li>a {
     white-space: nowrap;
     background-color: transparent;
     margin-bottom: 20px;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
 .highlight pre {

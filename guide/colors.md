@@ -339,4 +339,4 @@ and use `Sub.none`.
 The final product renders a (flat-edged) color wheel with 11 CSS-named colors
 on it.
 
-![Final rendering](/helm/img/guide/colors.png)
+![final](/helm/img/guide/colors.png)

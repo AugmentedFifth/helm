@@ -98,4 +98,4 @@ with the `linearGrad` gradient, and a circle with a radius of `64` at
 
 [Checkout the code on Github →](https://github.com/switchface/helm-demo-gradients)
 
-![Final rendering](/helm/img/guide/gradients.png)
+![final](/helm/img/guide/gradients.png)
