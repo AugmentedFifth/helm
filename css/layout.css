@@ -15,7 +15,16 @@ h6 {
 
 code {
     font-family: "Roboto Mono", "Source Code Pro", monospace;
-    color: #93a1a1;
+    color: #333;
+    background-color: rgba(192, 192, 192, 0.25);
+    border-radius: 4px;
+    padding: 1px 4px 1px 4px;
+}
+
+.highlight code {
+    background-color: unset;
+    border-radius: 0;
+    padding: 0;
 }
 
 sup {
