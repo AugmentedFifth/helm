@@ -18,27 +18,34 @@ on the the following development libraries being present:
 * SDL 2.0.x
 * Pango 1.x.x
 
-You will also need to install GHC 7.6 and it's accompanying Cabal. Confirm that
-the installed GHC is definitely version 7.6 (or later) by checking that the output of
-`ghc --version` is something similar to the following:
+You will also need to install GHC 7.6+ and its accompanying Cabal. This can be done
+the old fashioned way, or can be done entirely through [Stack](https://docs.haskellstack.org/en/stable/README/),
+which is recommended.
+
+If you use Stack, running `stack setup` will have been sufficient to install the
+latest version of the GHC. You can confirm that the installed GHC is definitely
+version 7.6 (or later) by checking that the output of `stack ghc -- --version`
+(or just `ghc --version` for independent installation) is something similar to the
+following:
 
 {% highlight bash %}
-$ ghc --version
+$ stack ghc -- --version
 The Glorious Glasgow Haskell Compilation System, version 7.6.3
 {% endhighlight %}
 
-Once GHC has been installed, use the following to install the Helm haskell package:
+Once GHC has been installed, use the following to install the Helm haskell package
+(replace "stack" with "cabal" if using Cabal directly):
 
 {% highlight bash %}
-$ cabal update # if this is your first time using cabal
-$ cabal install gtk2hs-buildtools
-$ cabal install helm
+$ stack update
+$ stack install gtk2hs-buildtools
+$ stack install helm
 {% endhighlight %}
 
 The gtk2hs dependency needs to be installed manually because it is required to build
 the Cairo bindings. You can now start using Helm to make games!
 
-### Mac OS X
+### macOS
 
 You will first need to install the [Haskell Platform 2013.2.0.0 for Mac](http://www.haskell.org/platform/mac.html)
 and the Xcode command line tools. The complete instructions for this process are on the linked download page. Once
