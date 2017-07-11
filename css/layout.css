@@ -1,26 +1,82 @@
-body { font-family: "Roboto Slab", sans-serif; }
-h1, h2, h3, h4, h5, h6 { font-family: "Roboto Slab", sans-serif; }
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&subset=latin-ext");
+
+body {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+code {
+    font-family: "Roboto Mono", "Source Code Pro", monospace;
+    color: #93a1a1;
+}
+
+sup {
+    vertical-align: super;
+    font-size: 75%;
+}
 
 .logo {
-    background-image: url("/img/logo.svg");
+    background-image: url("/helm/img/logo.svg");
     background-size: 100% 100%;
     width: 300px;
     height: 121px;
     margin: 0 auto;
     position: relative;
 }
-.no-svg .logo { background-image: url("/img/logo.png"); }
-.center { text-align: center; }
 
-a:hover { color: #ef483d; }
+.no-svg .logo {
+    background-image: url("/helm/img/logo.png");
+}
 
-li { line-height: 12px; }
-ul.nav { margin-left: auto; }
-ul.nav > li { display: inline-block; margin-right: 20px; }
-ul.nav > li > a { text-decoration: none; font-size: 1.5em; }
+.center {
+    text-align: center;
+}
 
-.highlight { background-color: transparent; margin-bottom: 20px; }
-.highlight pre { word-wrap: break-word; }
+a:hover {
+    color: #ef483d;
+}
 
-.guide ul { list-style: disc inside; }
-.guide img[alt=final] { max-width: 620px; }
+li {
+    line-height: 12px;
+}
+
+ul.nav {
+    margin-left: auto;
+}
+
+ul.nav>li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.nav>li>a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.highlight {
+    white-space: nowrap;
+    background-color: transparent;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.highlight pre {
+    word-wrap: break-word;
+}
+
+.guide ul {
+    list-style: disc inside;
+}
+
+.guide img[alt=final] {
+    max-width: 620px;
+}
