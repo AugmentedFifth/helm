@@ -22,6 +22,7 @@ code {
 }
 
 .highlight code {
+    color: unset;
     background-color: unset;
     border-radius: 0;
     padding: 0;
