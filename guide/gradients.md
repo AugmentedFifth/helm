@@ -96,6 +96,6 @@ The final product renders a *300&times;100* rectangle at `(100, 100)` filled
 with the `linearGrad` gradient, and a circle with a radius of `64` at
 `(500, 300)` filled with the `radialGrad` gradient.
 
-[Checkout the code on Github →](https://github.com/switchface/helm-demo-gradients)
+[Checkout the code on Github →](https://github.com/AugmentedFifth/helm-website-examples/blob/master/src/Gradients.hs)
 
 ![final](/helm/img/guide/gradients.png)

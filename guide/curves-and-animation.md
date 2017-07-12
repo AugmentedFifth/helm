@@ -73,7 +73,7 @@ a list of lists of forms:
 {% highlight haskell %}
 view Model{..} = Graphics2D
   {- ... -}
-  $ concat [slice angleOffset n | n &lt;- [0..length colors - 1]]
+  $ concat [slice angleOffset n | n <- [0..length colors - 1]]
 {% endhighlight %}
 
 Again, using record elision syntax.
@@ -102,7 +102,7 @@ can generate the `Form`s already rotated how we want them; this will just
 require making a few changes to `slice` in a little bit.
 
 {% highlight haskell %}
-$ concat [slice angleOffset n | n &lt;- [0..length colors - 1]]
+$ concat [slice angleOffset n | n <- [0..length colors - 1]]
 {% endhighlight %}
 
 Additionally we now have to make use of an `Action`, since there will need to
@@ -178,6 +178,6 @@ The final product renders the wheel from the first tutorial, but with round
 edges instead of flat ones. Additionally, the wheel rotates at a specified
 velocity.
 
-[Checkout the code on Github →](https://github.com/AugmentedFifth/curvesandanimation)
+[Checkout the code on Github →](https://github.com/AugmentedFifth/helm-website-examples/blob/master/src/CurvesAndAnimation.hs)
 
 ![final](/helm/img/animated-wheel.png)

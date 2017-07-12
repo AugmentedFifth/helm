@@ -339,4 +339,6 @@ and use `Sub.none`.
 The final product renders a (flat-edged) color wheel with 11 CSS-named colors
 on it.
 
+[Checkout the code on Github →](https://github.com/AugmentedFifth/helm-website-examples/blob/master/src/Colors.hs)
+
 ![final](/helm/img/guide/colors.png)
