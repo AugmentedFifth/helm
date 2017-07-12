@@ -7,6 +7,10 @@ permalink: /guide/curves-and-animation/
 
 ## Curves and Animation
 
+This guide is a direct extension of [the Colors guide](/helm/guide/colors/),
+building on top of the same code to extend its functionality. If you haven't
+already done that one, you should probably do it now.
+
 ### Curves
 
 #### ArcShape
